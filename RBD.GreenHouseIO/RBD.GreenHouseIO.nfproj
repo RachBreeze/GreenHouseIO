@@ -20,6 +20,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Display.cs" />
+    <Compile Include="SoilSensor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Iot.Device.Tm1637">
@@ -33,6 +35,9 @@
     </Reference>
     <Reference Include="nanoFramework.Runtime.Native">
       <HintPath>packages\nanoFramework.Runtime.Native.1.6.6\lib\nanoFramework.Runtime.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Device.Adc">
+      <HintPath>packages\nanoFramework.System.Device.Adc.1.1.6\lib\System.Device.Adc.dll</HintPath>
     </Reference>
     <Reference Include="System.Device.Gpio">
       <HintPath>packages\nanoFramework.System.Device.Gpio.1.1.28\lib\System.Device.Gpio.dll</HintPath>
